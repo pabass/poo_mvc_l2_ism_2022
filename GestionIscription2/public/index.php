@@ -1,6 +1,6 @@
 <?php
 require_once("../model/User.php");
-require_once("../model/RP.php");
+require_once("../model/AC.php");
 $ac=new AC;
 $ac->setId(1);
 $ac->setLogin("pabass");
