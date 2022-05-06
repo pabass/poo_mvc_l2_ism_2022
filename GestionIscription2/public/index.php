@@ -1,12 +1,12 @@
 <?php
 require_once("../model/User.php");
 require_once("../model/RP.php");
-$rp=new RP;
-$rp->setId(1);
-$rp->setLogin("pabass");
-$rp->setPassword("bass");
-echo $rp->getRole("br");
-echo $rp->getLogin();
+$ac=new AC;
+$ac->setId(1);
+$ac->setLogin("pabass");
+$ac->setPassword("bass");
+echo $ac->getRole("br");
+echo $ac->getLogin();
 $etudiant=new Etudiant;
 $etudiant->setNomComplet("bass ndiaye");
 $etudiant->setId("13569739");
